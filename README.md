@@ -10,7 +10,7 @@ Configure the variables with the required values and run the SSIS package. Refer
 Compile the objects from the Code\Script folder in the database in which files to be loaded. This is required only if Framework variable to be set to TRUE.
 Open the solution in Visual Studio 2015 & run
 
-##SSIS Variables
+## SSIS Variables
 
 * XMLFilePath    - Path from which XML Files will be read.
 
@@ -19,6 +19,7 @@ Open the solution in Visual Studio 2015 & run
 * XMLSQLServer  - SQL SERVER in which data to be loaded.
 
 * XMLSQLDatabase - SQL Server Database  in which data to be loaded.
+
 * XMLTablePrefix  - Based on the tables in the XML files , Tables will be created with this prefix.
 
 * XMLFrameWork  - When chosen TRUE , Works with the framework table in which the file details will be stored and the relationship between the XML table also stored. To use this the objects from the script folder needs to be created in the database in which the data to be loaded. When chosen FALSE , the tables only will be created and loaded. No need to compile the objects from the script table.
